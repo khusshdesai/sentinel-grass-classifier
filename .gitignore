@@ -5,6 +5,8 @@ __pycache__/
 
 # Environments
 .env
+.env.*
+*.env
 .venv
 env/
 venv/
@@ -39,3 +41,9 @@ share/python-wheels/
 
 # Ignore local query logs
 history.csv
+*.csv
+
+# Ignore ML Models, Data, and Outputs
+ml/data/
+ml/models/
+ml/outputs/
