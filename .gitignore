@@ -47,3 +47,9 @@ history.csv
 ml/data/
 ml/models/
 ml/outputs/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
